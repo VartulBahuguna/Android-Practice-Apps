@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AsyncTask</string>
+    <string name="Change_Color">Change Color</string>
+    <string name="time">0</string>
+    <string name="Start">Start</string>
+    <string name="Random">Random</string>
+</resources>
