@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DataStorage</string>
+    <string name="write">Write</string>
+    <string name="Read">Read</string>
+    <string name="Green">Green</string>
+    <string name="Blue">Blue</string>
+    <string name="RED">Red</string>
+</resources>
