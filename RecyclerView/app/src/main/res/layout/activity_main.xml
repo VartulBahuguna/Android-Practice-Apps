@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recVi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="100dp"
+        android:scrollbars="vertical"/>
+
+
+
+    <EditText
+        android:id="@+id/etInsert"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="25dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:text="Insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etInsert"
+        android:layout_toEndOf="@id/etInsert"/>
+
+    <EditText
+        android:id="@+id/etRemove"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btnInsert"
+        android:layout_toEndOf="@id/btnInsert"
+        android:layout_marginStart="65dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:text="Remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/etRemove"
+        android:layout_toEndOf="@id/etRemove"/>
+
+
+
+</RelativeLayout>
