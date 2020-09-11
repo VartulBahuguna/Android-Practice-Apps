@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UITask</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="smart_layout">Smart Layout</string>
+    <string name="todo">TODO</string>
+    <string name="coffee_news">Coffee News</string>
+</resources>
