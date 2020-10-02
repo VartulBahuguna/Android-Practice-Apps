@@ -31,5 +31,10 @@
       <option name="name" value="maven" />
       <option name="url" value="file:/D:/QuickBlox/quickblox-android-sdk-releases-master/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven" />
+      <option name="name" value="maven" />
+      <option name="url" value="file:/D:/QuickBlox/quickblox-android-sdk-releases-master" />
+    </remote-repository>
   </component>
 </project>

@@ -2,4 +2,5 @@
     <string name="app_name">ToDoList</string>
     <string name="history">History</string>
     <string name="search">Search</string>
+    <string name="calendar_img">calendar img</string>
 </resources>
