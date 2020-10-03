@@ -31,7 +31,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="4dp"
-            android:text="hello"
+            android:text="Task"
             android:textColor="#F85306"
             android:textSize="20sp" />
 
@@ -112,7 +112,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/dataEdt"
+                android:id="@+id/dateEdt"
                 android:hint="Set Date"
                 android:clickable="true"
                 android:cursorVisible="false"
@@ -179,7 +179,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_playlist_add"
-                app:tint="#FF5722" />
+                app:tint="#FF5722"
+                android:contentDescription="@string/calendar_img" />
 
         </LinearLayout>
 
@@ -190,6 +191,7 @@
             android:layout_gravity="end"
             android:layout_marginTop="32dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginBottom="50dp"
             android:backgroundTint="#FF5722"
             android:text="SAVE TASK"
             app:cornerRadius="25dp"/>

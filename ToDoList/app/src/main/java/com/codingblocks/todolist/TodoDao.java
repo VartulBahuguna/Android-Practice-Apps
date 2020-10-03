@@ -21,4 +21,5 @@ public interface TodoDao {
 
     @Query("Delete from TodoModel where id = :uid")
     void deleteTask(long uid);
+
 }

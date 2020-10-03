@@ -9,11 +9,21 @@ public class TodoModel {
     String title;
     String description;
     String category;
-    long data;
+    long date;
     long time;
     int isFinished = -1;
     @PrimaryKey(autoGenerate = true)
     Long id ;
+
+    public TodoModel(String title, String description, String category, long date, long time) {
+        this.title = title;
+        this.description = description;
+        this.category = category;
+        this.date = date;
+        this.time = time;
+
+
+    }
 
     public String getTitle() {
         return title;
@@ -39,12 +49,12 @@ public class TodoModel {
         this.category = category;
     }
 
-    public long getData() {
-        return data;
+    public long getDate() {
+        return date;
     }
 
-    public void setData(long data) {
-        this.data = data;
+    public void setDate(long date) {
+        this.date = date;
     }
 
     public long getTime() {
